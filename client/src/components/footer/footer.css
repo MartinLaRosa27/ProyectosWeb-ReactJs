@@ -1,0 +1,9 @@
+#footer {
+  background: #548aff;
+}
+
+@media (max-width: 576px) {
+  #footer .d-flex {
+    flex-direction: column;
+  }
+}

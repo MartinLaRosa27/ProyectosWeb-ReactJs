@@ -1,0 +1,22 @@
+#header {
+  background: #7dafff !important;
+}
+
+#header img {
+  width: 3.5rem;
+}
+
+#header p {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#header p:hover {
+  color: #e04f2b;
+}
+
+@media (max-width: 576px) {
+  #header a span {
+    display: none;
+  }
+}

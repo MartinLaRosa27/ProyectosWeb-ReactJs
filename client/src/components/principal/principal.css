@@ -1,0 +1,34 @@
+#principal {
+  min-height: 100vh;
+}
+
+#agregar_proyecto input {
+  text-transform: none;
+}
+
+#agregar_proyecto button {
+  background: #f5714f;
+}
+
+#agregar_proyecto button:hover {
+  background: #e04f2b;
+}
+
+#lista_proyectos a {
+  color: #f5714f;
+  transition: 0.3s;
+}
+
+#lista_proyectos a:hover {
+  color: #7dafff;
+}
+
+@media (max-width: 576px) {
+  #principal .d-flex {
+    flex-direction: column;
+  }
+
+  #lista_proyectos ul {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,23 @@
+#proyecto {
+  min-height: 100vh;
+}
+
+#editar_proyecto .btn_editar {
+  background: #f5714f;
+}
+
+#editar_proyecto .btn_editar:hover {
+  background: #e04f2b;
+}
+
+#editar_proyecto input {
+  text-transform: none;
+}
+
+#lista_tareas_proyecto .btn_agregar {
+  background: #548aff;
+}
+
+#lista_tareas_proyecto .btn_agregar:hover {
+  background: #7dafff;
+}

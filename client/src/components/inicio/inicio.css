@@ -1,0 +1,24 @@
+#inicio {
+  min-height: 100vh;
+}
+
+#inicio span {
+  color: #7dafff;
+}
+
+#inicio img {
+  max-width: 250px;
+}
+
+#inicio .btn-primary {
+  background: #f5714f;
+  margin-right: 20px;
+}
+
+#inicio .btn-primary:last-of-type {
+  margin-right: 0;
+}
+
+#inicio .btn-primary:hover {
+  background: #e04f2b;
+}
